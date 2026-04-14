@@ -1,0 +1,17 @@
+C:\Users\grhys\Downloads\vst-sdk_3.8.0_build-66_2025-10-20\VST_SDK\vst3sdk\public.sdk\source\common\pluginview.cpp;C:\Users\grhys\VSTPlugins\Analog Delay\build\vst3sdk\sdk.dir\Debug\pluginview.obj
+C:\Users\grhys\Downloads\vst-sdk_3.8.0_build-66_2025-10-20\VST_SDK\vst3sdk\public.sdk\source\main\pluginfactory.cpp;C:\Users\grhys\VSTPlugins\Analog Delay\build\vst3sdk\sdk.dir\Debug\pluginfactory.obj
+C:\Users\grhys\Downloads\vst-sdk_3.8.0_build-66_2025-10-20\VST_SDK\vst3sdk\public.sdk\source\main\moduleinit.cpp;C:\Users\grhys\VSTPlugins\Analog Delay\build\vst3sdk\sdk.dir\Debug\moduleinit.obj
+C:\Users\grhys\Downloads\vst-sdk_3.8.0_build-66_2025-10-20\VST_SDK\vst3sdk\public.sdk\source\vst\utility\dataexchange.cpp;C:\Users\grhys\VSTPlugins\Analog Delay\build\vst3sdk\sdk.dir\Debug\dataexchange.obj
+C:\Users\grhys\Downloads\vst-sdk_3.8.0_build-66_2025-10-20\VST_SDK\vst3sdk\public.sdk\source\vst\utility\stringconvert.cpp;C:\Users\grhys\VSTPlugins\Analog Delay\build\vst3sdk\sdk.dir\Debug\stringconvert.obj
+C:\Users\grhys\Downloads\vst-sdk_3.8.0_build-66_2025-10-20\VST_SDK\vst3sdk\public.sdk\source\vst\utility\systemtime.cpp;C:\Users\grhys\VSTPlugins\Analog Delay\build\vst3sdk\sdk.dir\Debug\systemtime.obj
+C:\Users\grhys\Downloads\vst-sdk_3.8.0_build-66_2025-10-20\VST_SDK\vst3sdk\public.sdk\source\vst\utility\testing.cpp;C:\Users\grhys\VSTPlugins\Analog Delay\build\vst3sdk\sdk.dir\Debug\testing.obj
+C:\Users\grhys\Downloads\vst-sdk_3.8.0_build-66_2025-10-20\VST_SDK\vst3sdk\public.sdk\source\vst\utility\vst2persistence.cpp;C:\Users\grhys\VSTPlugins\Analog Delay\build\vst3sdk\sdk.dir\Debug\vst2persistence.obj
+C:\Users\grhys\Downloads\vst-sdk_3.8.0_build-66_2025-10-20\VST_SDK\vst3sdk\public.sdk\source\vst\vstaudioeffect.cpp;C:\Users\grhys\VSTPlugins\Analog Delay\build\vst3sdk\sdk.dir\Debug\vstaudioeffect.obj
+C:\Users\grhys\Downloads\vst-sdk_3.8.0_build-66_2025-10-20\VST_SDK\vst3sdk\public.sdk\source\vst\vstbus.cpp;C:\Users\grhys\VSTPlugins\Analog Delay\build\vst3sdk\sdk.dir\Debug\vstbus.obj
+C:\Users\grhys\Downloads\vst-sdk_3.8.0_build-66_2025-10-20\VST_SDK\vst3sdk\public.sdk\source\vst\vstcomponent.cpp;C:\Users\grhys\VSTPlugins\Analog Delay\build\vst3sdk\sdk.dir\Debug\vstcomponent.obj
+C:\Users\grhys\Downloads\vst-sdk_3.8.0_build-66_2025-10-20\VST_SDK\vst3sdk\public.sdk\source\vst\vstcomponentbase.cpp;C:\Users\grhys\VSTPlugins\Analog Delay\build\vst3sdk\sdk.dir\Debug\vstcomponentbase.obj
+C:\Users\grhys\Downloads\vst-sdk_3.8.0_build-66_2025-10-20\VST_SDK\vst3sdk\public.sdk\source\vst\vsteditcontroller.cpp;C:\Users\grhys\VSTPlugins\Analog Delay\build\vst3sdk\sdk.dir\Debug\vsteditcontroller.obj
+C:\Users\grhys\Downloads\vst-sdk_3.8.0_build-66_2025-10-20\VST_SDK\vst3sdk\public.sdk\source\vst\vstinitiids.cpp;C:\Users\grhys\VSTPlugins\Analog Delay\build\vst3sdk\sdk.dir\Debug\vstinitiids.obj
+C:\Users\grhys\Downloads\vst-sdk_3.8.0_build-66_2025-10-20\VST_SDK\vst3sdk\public.sdk\source\vst\vstnoteexpressiontypes.cpp;C:\Users\grhys\VSTPlugins\Analog Delay\build\vst3sdk\sdk.dir\Debug\vstnoteexpressiontypes.obj
+C:\Users\grhys\Downloads\vst-sdk_3.8.0_build-66_2025-10-20\VST_SDK\vst3sdk\public.sdk\source\vst\vstparameters.cpp;C:\Users\grhys\VSTPlugins\Analog Delay\build\vst3sdk\sdk.dir\Debug\vstparameters.obj
+C:\Users\grhys\Downloads\vst-sdk_3.8.0_build-66_2025-10-20\VST_SDK\vst3sdk\public.sdk\source\vst\vstrepresentation.cpp;C:\Users\grhys\VSTPlugins\Analog Delay\build\vst3sdk\sdk.dir\Debug\vstrepresentation.obj

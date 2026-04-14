@@ -1,0 +1,13 @@
+﻿  Building Custom Rule C:/Users/grhys/Downloads/vst-sdk_3.8.0_build-66_2025-10-20/VST_SDK/vst3sdk/CMakeLists.txt
+  baseiids.cpp
+  fbuffer.cpp
+  fdebug.cpp
+  fdynlib.cpp
+  fobject.cpp
+  fstreamer.cpp
+  fstring.cpp
+  timer.cpp
+  updatehandler.cpp
+  fcondition.cpp
+  flock.cpp
+  base.vcxproj -> C:\Users\grhys\VSTPlugins\Analog Delay\build\lib\Debug\base.lib

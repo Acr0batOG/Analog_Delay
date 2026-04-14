@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{18F382A2-658D-3B45-A4B8-D0CDE338CB31}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>sdk_hosting</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\grhys\VSTPlugins\Analog Delay\build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sdk_hosting.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sdk_hosting</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\grhys\VSTPlugins\Analog Delay\build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sdk_hosting.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sdk_hosting</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\grhys\VST_SDK\vst3sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>6031;6308;6330;6385;6386;28125;28251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SMTG_RENAME_ASSERT=1;DEVELOPMENT=1;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SMTG_RENAME_ASSERT=1;DEVELOPMENT=1;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\grhys\VST_SDK\vst3sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\grhys\VST_SDK\vst3sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\grhys\VST_SDK\vst3sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DisableSpecificWarnings>6031;6308;6330;6385;6386;28125;28251</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>true</OmitFramePointers>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SMTG_RENAME_ASSERT=1;RELEASE=1;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SMTG_RENAME_ASSERT=1;RELEASE=1;_UNICODE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\grhys\VST_SDK\vst3sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\grhys\VST_SDK\vst3sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\grhys\VST_SDK\vst3sdk\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/grhys/VST_SDK/vst3sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/grhys/VSTPlugins/Analog Delay" "-BC:/Users/grhys/VSTPlugins/Analog Delay/build" --check-stamp-file "C:/Users/grhys/VSTPlugins/Analog Delay/build/vst3sdk/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePrintHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_AAXSupport.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_AddCommonOptions.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_AddSMTGLibrary.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_AddVST3Library.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_AddVST3Options.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_Bundle.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_CodeSign.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_ConfigureCmakeGenerator.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_CoreAudioSupport.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_CustomModuleTarget.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_DetectPlatform.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_ExportedSymbols.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_FindJack.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_Global.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_PlatformIOS.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_PlatformToolset.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_Platform_Windows.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_PrefixHeader.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_SetDebugExecutable.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_SetupVST3LibraryDefaultPath.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_UniversalBinary.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_VST3_SDK.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_VstGuiSupport.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\grhys\VSTPlugins\Analog Delay\build\vst3sdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/grhys/VST_SDK/vst3sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/grhys/VSTPlugins/Analog Delay" "-BC:/Users/grhys/VSTPlugins/Analog Delay/build" --check-stamp-file "C:/Users/grhys/VSTPlugins/Analog Delay/build/vst3sdk/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePrintHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_AAXSupport.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_AddCommonOptions.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_AddSMTGLibrary.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_AddVST3Library.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_AddVST3Options.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_Bundle.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_CodeSign.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_ConfigureCmakeGenerator.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_CoreAudioSupport.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_CustomModuleTarget.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_DetectPlatform.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_ExportedSymbols.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_FindJack.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_Global.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_PlatformIOS.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_PlatformToolset.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_Platform_Windows.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_PrefixHeader.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_SetDebugExecutable.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_SetupVST3LibraryDefaultPath.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_UniversalBinary.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_VST3_SDK.cmake;C:\Users\grhys\VST_SDK\vst3sdk\cmake\modules\SMTG_VstGuiSupport.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\grhys\VSTPlugins\Analog Delay\build\vst3sdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\grhys\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\connectionproxy.cpp" />
+    <ClInclude Include="C:\Users\grhys\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\connectionproxy.h" />
+    <ClCompile Include="C:\Users\grhys\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\eventlist.cpp" />
+    <ClInclude Include="C:\Users\grhys\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\eventlist.h" />
+    <ClCompile Include="C:\Users\grhys\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\hostclasses.cpp" />
+    <ClInclude Include="C:\Users\grhys\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\hostclasses.h" />
+    <ClCompile Include="C:\Users\grhys\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\module.cpp" />
+    <ClInclude Include="C:\Users\grhys\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\module.h" />
+    <ClCompile Include="C:\Users\grhys\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\parameterchanges.cpp" />
+    <ClInclude Include="C:\Users\grhys\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\parameterchanges.h" />
+    <ClCompile Include="C:\Users\grhys\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\pluginterfacesupport.cpp" />
+    <ClInclude Include="C:\Users\grhys\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\pluginterfacesupport.h" />
+    <ClCompile Include="C:\Users\grhys\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\processdata.cpp" />
+    <ClInclude Include="C:\Users\grhys\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\processdata.h" />
+    <ClInclude Include="C:\Users\grhys\VST_SDK\vst3sdk\public.sdk\source\vst\utility\optional.h" />
+    <ClCompile Include="C:\Users\grhys\VST_SDK\vst3sdk\public.sdk\source\vst\utility\stringconvert.cpp" />
+    <ClInclude Include="C:\Users\grhys\VST_SDK\vst3sdk\public.sdk\source\vst\utility\stringconvert.h" />
+    <ClInclude Include="C:\Users\grhys\VST_SDK\vst3sdk\public.sdk\source\vst\utility\uid.h" />
+    <ClInclude Include="C:\Users\grhys\VST_SDK\vst3sdk\public.sdk\source\vst\utility\versionparser.h" />
+    <ClCompile Include="C:\Users\grhys\VST_SDK\vst3sdk\public.sdk\source\vst\vstinitiids.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\grhys\VSTPlugins\Analog Delay\build\ZERO_CHECK.vcxproj">
+      <Project>{5D789C1C-6FE2-33B1-94CF-AA8AF4B2708C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\grhys\VSTPlugins\Analog Delay\build\vst3sdk\base.vcxproj">
+      <Project>{EC420B58-3778-3FCB-A98F-7BE7F74864CD}</Project>
+      <Name>base</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\grhys\VSTPlugins\Analog Delay\build\vst3sdk\pluginterfaces.vcxproj">
+      <Project>{829A8845-B251-3BD5-B1C8-604476F8DF6D}</Project>
+      <Name>pluginterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\grhys\VSTPlugins\Analog Delay\build\vst3sdk\sdk_common.vcxproj">
+      <Project>{46A29B5D-03C2-3B87-8822-5BB1A050A388}</Project>
+      <Name>sdk_common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

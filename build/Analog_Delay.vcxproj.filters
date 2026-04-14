@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\grhys\VSTPlugins\Analog Delay\source\processor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grhys\VSTPlugins\Analog Delay\source\controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grhys\VSTPlugins\Analog Delay\source\entry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grhys\VST_SDK\vst3sdk\public.sdk\source\main\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\grhys\VSTPlugins\Analog Delay\source\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grhys\VSTPlugins\Analog Delay\source\cids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grhys\VSTPlugins\Analog Delay\source\processor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grhys\VSTPlugins\Analog Delay\source\controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\grhys\VSTPlugins\Analog Delay\resource\editor.uidesc">
+      <Filter>Contents\Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\grhys\VSTPlugins\Analog Delay\resource\9C9936F812225A0795357A84540A2494_snapshot.png">
+      <Filter>Contents\Resources\Snapshots</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\grhys\VSTPlugins\Analog Delay\resource\9C9936F812225A0795357A84540A2494_snapshot_2.0x.png">
+      <Filter>Contents\Resources\Snapshots</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\grhys\VSTPlugins\Analog Delay\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\grhys\VSTPlugins\Analog Delay\resource\win32resource.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Contents">
+      <UniqueIdentifier>{F4CC38EE-AF82-3F8D-8D23-7174C7158012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Resources">
+      <UniqueIdentifier>{16EB3021-DE6A-3D98-B224-579673589D75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Resources\Snapshots">
+      <UniqueIdentifier>{509E3AF8-B9E7-3DB3-B3E8-E0522833AC97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D3BF3E6B-3D23-3978-BBEA-246D574F8150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AE5F887A-AE59-3F46-888D-08167879BE63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

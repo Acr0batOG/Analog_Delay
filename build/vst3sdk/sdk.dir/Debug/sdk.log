@@ -1,0 +1,19 @@
+﻿  Building Custom Rule C:/Users/grhys/Downloads/vst-sdk_3.8.0_build-66_2025-10-20/VST_SDK/vst3sdk/CMakeLists.txt
+  pluginview.cpp
+  pluginfactory.cpp
+  moduleinit.cpp
+  dataexchange.cpp
+  stringconvert.cpp
+  systemtime.cpp
+  testing.cpp
+  vst2persistence.cpp
+  vstaudioeffect.cpp
+  vstbus.cpp
+  vstcomponent.cpp
+  vstcomponentbase.cpp
+  vsteditcontroller.cpp
+  vstinitiids.cpp
+  vstnoteexpressiontypes.cpp
+  vstparameters.cpp
+  vstrepresentation.cpp
+  sdk.vcxproj -> C:\Users\grhys\VSTPlugins\Analog Delay\build\lib\Debug\sdk.lib

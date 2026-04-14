@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\grhys\VST_SDK\vst3sdk\vstgui4\vstgui\uidescription-scripting\tiny-js\TinyJS_Functions.cpp">
+      <Filter>tiny-js</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grhys\VST_SDK\vst3sdk\vstgui4\vstgui\uidescription-scripting\tiny-js\TinyJS_MathFunctions.cpp">
+      <Filter>tiny-js</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grhys\VST_SDK\vst3sdk\vstgui4\vstgui\uidescription-scripting\tiny-js\TinyJS.cpp">
+      <Filter>tiny-js</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grhys\VST_SDK\vst3sdk\vstgui4\vstgui\uidescription-scripting\detail\drawcontextobject.cpp">
+      <Filter>detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grhys\VST_SDK\vst3sdk\vstgui4\vstgui\uidescription-scripting\detail\drawable.cpp">
+      <Filter>detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grhys\VST_SDK\vst3sdk\vstgui4\vstgui\uidescription-scripting\detail\scriptingviewfactory.cpp">
+      <Filter>detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grhys\VST_SDK\vst3sdk\vstgui4\vstgui\uidescription-scripting\detail\viewscriptobject.cpp">
+      <Filter>detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\grhys\VST_SDK\vst3sdk\vstgui4\vstgui\uidescription-scripting\uiscripting.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\grhys\VST_SDK\vst3sdk\vstgui4\vstgui\uidescription-scripting\tiny-js\TinyJS_Functions.h">
+      <Filter>tiny-js</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grhys\VST_SDK\vst3sdk\vstgui4\vstgui\uidescription-scripting\tiny-js\TinyJS_MathFunctions.h">
+      <Filter>tiny-js</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grhys\VST_SDK\vst3sdk\vstgui4\vstgui\uidescription-scripting\tiny-js\TinyJS.h">
+      <Filter>tiny-js</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grhys\VST_SDK\vst3sdk\vstgui4\vstgui\uidescription-scripting\detail\scriptobject.h">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grhys\VST_SDK\vst3sdk\vstgui4\vstgui\uidescription-scripting\detail\uidescscriptobject.h">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grhys\VST_SDK\vst3sdk\vstgui4\vstgui\uidescription-scripting\detail\converters.h">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grhys\VST_SDK\vst3sdk\vstgui4\vstgui\uidescription-scripting\detail\drawcontextobject.h">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grhys\VST_SDK\vst3sdk\vstgui4\vstgui\uidescription-scripting\detail\drawable.h">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grhys\VST_SDK\vst3sdk\vstgui4\vstgui\uidescription-scripting\detail\iscriptcontextinternal.h">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grhys\VST_SDK\vst3sdk\vstgui4\vstgui\uidescription-scripting\detail\scriptingviewfactory.h">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grhys\VST_SDK\vst3sdk\vstgui4\vstgui\uidescription-scripting\detail\viewscriptobject.h">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\grhys\VST_SDK\vst3sdk\vstgui4\vstgui\uidescription-scripting\uiscripting.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\grhys\VST_SDK\vst3sdk\vstgui4\vstgui\uidescription-scripting\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\grhys\VST_SDK\vst3sdk\vstgui4\vstgui\uidescription-scripting\uiscripting.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="detail">
+      <UniqueIdentifier>{A13AC40B-27AD-3727-8774-C7C936F59CEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tiny-js">
+      <UniqueIdentifier>{58EBD61A-E8B1-33A8-89C8-8EDB84F5C658}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

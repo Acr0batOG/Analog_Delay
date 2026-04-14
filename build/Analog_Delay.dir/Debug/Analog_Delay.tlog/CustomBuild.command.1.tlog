@@ -1,0 +1,46 @@
+^C:\USERS\GRHYS\VSTPLUGINS\ANALOG DELAY\RESOURCE\EDITOR.UIDESC
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/grhys/VSTPlugins/Analog Delay/resource/editor.uidesc" "C:/Users/grhys/VSTPlugins/Analog Delay/build/VST3/Debug/Analog_Delay.vst3/Contents/Resources/editor.uidesc"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "[SMTG] Copied C:/Users/grhys/VSTPlugins/Analog Delay/resource/editor.uidesc to C:/Users/grhys/VSTPlugins/Analog Delay/build/VST3/Debug/Analog_Delay.vst3/Contents/Resources/editor.uidesc"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GRHYS\VSTPLUGINS\ANALOG DELAY\RESOURCE\9C9936F812225A0795357A84540A2494_SNAPSHOT.PNG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/grhys/VSTPlugins/Analog Delay/resource/9C9936F812225A0795357A84540A2494_snapshot.png" "C:/Users/grhys/VSTPlugins/Analog Delay/build/VST3/Debug/Analog_Delay.vst3/Contents/Resources/Snapshots/9C9936F812225A0795357A84540A2494_snapshot.png"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "[SMTG] Copied C:/Users/grhys/VSTPlugins/Analog Delay/resource/9C9936F812225A0795357A84540A2494_snapshot.png to C:/Users/grhys/VSTPlugins/Analog Delay/build/VST3/Debug/Analog_Delay.vst3/Contents/Resources/Snapshots/9C9936F812225A0795357A84540A2494_snapshot.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GRHYS\VSTPLUGINS\ANALOG DELAY\RESOURCE\9C9936F812225A0795357A84540A2494_SNAPSHOT_2.0X.PNG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/grhys/VSTPlugins/Analog Delay/resource/9C9936F812225A0795357A84540A2494_snapshot_2.0x.png" "C:/Users/grhys/VSTPlugins/Analog Delay/build/VST3/Debug/Analog_Delay.vst3/Contents/Resources/Snapshots/9C9936F812225A0795357A84540A2494_snapshot_2.0x.png"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "[SMTG] Copied C:/Users/grhys/VSTPlugins/Analog Delay/resource/9C9936F812225A0795357A84540A2494_snapshot_2.0x.png to C:/Users/grhys/VSTPlugins/Analog Delay/build/VST3/Debug/Analog_Delay.vst3/Contents/Resources/Snapshots/9C9936F812225A0795357A84540A2494_snapshot_2.0x.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GRHYS\VSTPLUGINS\ANALOG DELAY\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/grhys/VSTPlugins/Analog Delay" "-BC:/Users/grhys/VSTPlugins/Analog Delay/build" --check-stamp-file "C:/Users/grhys/VSTPlugins/Analog Delay/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/grhys/Downloads/vst-sdk_3.8.0_build-66_2025-10-20/VST_SDK/vst3sdk/CMakeLists.txt
+  conststringtable.cpp
+  coreiids.cpp
+  funknown.cpp
+  ustring.cpp
+  pluginterfaces.vcxproj -> C:\Users\grhys\VSTPlugins\Analog Delay\build\lib\Debug\pluginterfaces.lib
