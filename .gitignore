@@ -6,6 +6,7 @@
 *.vsidx
 *.db
 *.lib
+*.cmake
 build/x64/
 build/lib/
 build/CMakeFiles/
@@ -14,4 +15,5 @@ build/ZERO_CHECK.dir/
 build/WIN_PDB64/
 build/vst3sdk/
 build/.vs/
+build/CMakeCache.txt
 
