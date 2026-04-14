@@ -4,3 +4,12 @@
 *.pch
 *.ilk
 *.vsidx
+build/x64
+build/lib
+build/CMakeFiles
+build/bin
+build/ZERO_CHECK.dir
+build/WIN_PDB64
+build/vst3sdk
+
+
