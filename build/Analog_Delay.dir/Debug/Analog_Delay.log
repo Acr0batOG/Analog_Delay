@@ -1,10 +1,16 @@
-﻿     Creating library C:/Users/grhys/VSTPlugins/Analog Delay/build/lib/Debug/Analog_Delay.lib and object C:/Users/grhys/VSTPlugins/Analog Delay/build/lib/Debug/Analog_Delay.exp
-  Analog_Delay.vcxproj -> C:\Users\grhys\VSTPlugins\Analog Delay\build\VST3\Debug\Analog_Delay.vst3\Contents\x86_64-win\Analog_Delay.vst3
+﻿  Generating VST3/Debug/Analog_Delay.vst3/Contents/Resources/editor.uidesc
+  [SMTG] Copied C:/Users/RSmith/VSTPlugins/Analog_Delay/resource/editor.uidesc to C:/Users/RSmith/VSTPlugins/Analog_Delay/build/VST3/Debug/Analog_Delay.vst3/Contents/Resources/editor.uidesc
+  Generating VST3/Debug/Analog_Delay.vst3/Contents/Resources/Snapshots/9C9936F812225A0795357A84540A2494_snapshot.png
+  [SMTG] Copied C:/Users/RSmith/VSTPlugins/Analog_Delay/resource/9C9936F812225A0795357A84540A2494_snapshot.png to C:/Users/RSmith/VSTPlugins/Analog_Delay/build/VST3/Debug/Analog_Delay.vst3/Contents/Resources/Snapshots/9C9936F812225A0795357A84540A2494_snapshot.png
+  Generating VST3/Debug/Analog_Delay.vst3/Contents/Resources/Snapshots/9C9936F812225A0795357A84540A2494_snapshot_2.0x.png
+  [SMTG] Copied C:/Users/RSmith/VSTPlugins/Analog_Delay/resource/9C9936F812225A0795357A84540A2494_snapshot_2.0x.png to C:/Users/RSmith/VSTPlugins/Analog_Delay/build/VST3/Debug/Analog_Delay.vst3/Contents/Resources/Snapshots/9C9936F812225A0795357A84540A2494_snapshot_2.0x.png
+  entry.cpp
+  Analog_Delay.vcxproj -> C:\Users\RSmith\VSTPlugins\Analog_Delay\build\VST3\Debug\Analog_Delay.vst3\Contents\x86_64-win\Analog_Delay.vst3
   [SMTG] Copy PlugIn.ico and desktop.ini and change their attributes.			
   [SMTG] Validator started...
   * Loading module...
   
-  	C:/Users/grhys/VSTPlugins/Analog Delay/build/VST3/Debug/Analog_Delay.vst3
+  	C:/Users/RSmith/VSTPlugins/Analog_Delay/build/VST3/Debug/Analog_Delay.vst3
   
   * Check valid bundle structure...
   
@@ -34,8 +40,8 @@
   * Checking snapshots...
   
   Found snapshots for 'Analog Delay'
-   - C:/Users/grhys/VSTPlugins/Analog Delay/build/VST3/Debug/Analog_Delay.vst3/Contents/Resources/Snapshots/9C9936F812225A0795357A84540A2494_snapshot.png [1x]
-   - C:/Users/grhys/VSTPlugins/Analog Delay/build/VST3/Debug/Analog_Delay.vst3/Contents/Resources/Snapshots/9C9936F812225A0795357A84540A2494_snapshot_2.0x.png [2x]
+   - C:/Users/RSmith/VSTPlugins/Analog_Delay/build/VST3/Debug/Analog_Delay.vst3/Contents/Resources/Snapshots/9C9936F812225A0795357A84540A2494_snapshot.png [1x]
+   - C:/Users/RSmith/VSTPlugins/Analog_Delay/build/VST3/Debug/Analog_Delay.vst3/Contents/Resources/Snapshots/9C9936F812225A0795357A84540A2494_snapshot_2.0x.png [2x]
   
   * Creating tests...
   
@@ -301,4 +307,70 @@
   [SMTG] Validator finished.
   [SMTG] Delete previous link...
   [SMTG] Creation of the new link...
-  [SMTG] Finished.
+EXEC : CMake error : failed to create symbolic link 'C:/Users/RSmith/AppData/Local/Programs/Common/VST3/Analog_Delay.vst3': A required privilege is not held by the client.
+  
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: The command "setlocal
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/RSmith/VST3/VST_SDK/vst3sdk/cmake/modules/../templates/VST_Logo_Steinberg.ico C:/Users/RSmith/VSTPlugins/Analog_Delay/build/VST3/Debug/Analog_Delay.vst3/PlugIn.ico
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/RSmith/VST3/VST_SDK/vst3sdk/cmake/modules/../templates/desktop.ini.in C:/Users/RSmith/VSTPlugins/Analog_Delay/build/VST3/Debug/Analog_Delay.vst3/desktop.ini
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: attrib +s C:/Users/RSmith/VSTPlugins/Analog_Delay/build/VST3/Debug/Analog_Delay.vst3/desktop.ini
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: attrib +s C:/Users/RSmith/VSTPlugins/Analog_Delay/build/VST3/Debug/Analog_Delay.vst3/PlugIn.ico
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: attrib +s C:/Users/RSmith/VSTPlugins/Analog_Delay/build/VST3/Debug/Analog_Delay.vst3
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmErrorLevel
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: exit /b %1
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmDone
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: setlocal
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: cd C:\Users\RSmith\VSTPlugins\Analog_Delay\build\bin
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: C:
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: C:\Users\RSmith\VSTPlugins\Analog_Delay\build\bin\Debug\moduleinfotool.exe -create -version 1.0.0.0 -path C:/Users/RSmith/VSTPlugins/Analog_Delay/build/VST3/Debug/Analog_Delay.vst3 -output C:/Users/RSmith/VSTPlugins/Analog_Delay/build/VST3/Debug/Analog_Delay.vst3/Contents/Resources/moduleinfo.json
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmErrorLevel
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: exit /b %1
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmDone
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: setlocal
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: cd C:\Users\RSmith\VSTPlugins\Analog_Delay\build\bin
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: C:
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: "C:\Program Files\CMake\bin\cmake.exe" -E echo [SMTG] Validator started...
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: C:\Users\RSmith\VSTPlugins\Analog_Delay\build\bin\Debug\validator.exe C:/Users/RSmith/VSTPlugins/Analog_Delay/build/VST3/Debug/Analog_Delay.vst3 
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: "C:\Program Files\CMake\bin\cmake.exe" -E echo [SMTG] Validator finished.
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmErrorLevel
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: exit /b %1
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmDone
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: setlocal
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: "C:\Program Files\CMake\bin\cmake.exe" -E echo [SMTG] Delete previous link...
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: "C:\Program Files\CMake\bin\cmake.exe" -E rm -rf C:/Users/RSmith/AppData/Local/Programs/Common/VST3/Analog_Delay.vst3
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: "C:\Program Files\CMake\bin\cmake.exe" -E echo [SMTG] Creation of the new link...
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: "C:\Program Files\CMake\bin\cmake.exe" -E create_symlink C:/Users/RSmith/VSTPlugins/Analog_Delay/build/VST3/Debug/Analog_Delay.vst3  C:/Users/RSmith/AppData/Local/Programs/Common/VST3/Analog_Delay.vst3
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: "C:\Program Files\CMake\bin\cmake.exe" -E echo [SMTG] Finished.
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmErrorLevel
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: exit /b %1
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :cmDone
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :VCEnd" exited with code 1.
