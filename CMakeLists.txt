@@ -5,9 +5,12 @@ option(SMTG_ENABLE_VST3_HOSTING_EXAMPLES "Enable VST 3 Hosting Examples" OFF)
 
 set(CMAKE_OSX_DEPLOYMENT_TARGET 10.13 CACHE STRING "")
 
-set(vst3sdk_SOURCE_DIR "C:/Users/grhys/VST_SDK/vst3sdk")
+# Get the SDK path from the system environment variable VST3_SDK_ROOT
+set(vst3sdk_SOURCE_DIR $ENV{VST3_SDK_ROOT})
+
+# Check if the variable was actually found
 if(NOT vst3sdk_SOURCE_DIR)
-    message(FATAL_ERROR "Path to VST3 SDK is empty!")
+    message(FATAL_ERROR "VST3_SDK_ROOT environment variable not set! Please set it to your vst3sdk folder path.")
 endif()
 
 project(Analog_Delay

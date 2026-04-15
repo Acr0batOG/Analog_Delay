@@ -2,16 +2,16 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\grhys\VSTPlugins\Analog Delay\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\RSmith\VSTPlugins\Analog_Delay\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\grhys\VSTPlugins\Analog Delay\build\bin\Debug\moduleinfotool.exe</FullPath>
+      <FullPath>C:\Users\RSmith\VSTPlugins\Analog_Delay\build\bin\Debug\moduleinfotool.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\grhys\VSTPlugins\Analog Delay\build\bin\Debug\validator.exe</FullPath>
+      <FullPath>C:\Users\RSmith\VSTPlugins\Analog_Delay\build\bin\Debug\validator.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\grhys\VSTPlugins\Analog Delay\build\VST3\Debug\Analog_Delay.vst3\Contents\x86_64-win\Analog_Delay.vst3</FullPath>
+      <FullPath>C:\Users\RSmith\VSTPlugins\Analog_Delay\build\VST3\Debug\Analog_Delay.vst3\Contents\x86_64-win\Analog_Delay.vst3</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

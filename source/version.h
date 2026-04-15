@@ -15,6 +15,6 @@
 #else
 #define stringFileDescription	"Analog Delay VST3"
 #endif
-#define stringCompanyName		"My Plug-in Company\0"
+#define stringCompanyName		"RSmith Plugins\0"
 #define stringLegalCopyright	"Copyright(c) 2026 My Plug-in Company."
 #define stringLegalTrademarks	"VST is a trademark of Steinberg Media Technologies GmbH"

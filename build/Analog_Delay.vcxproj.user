@@ -4,6 +4,6 @@
     <ShowAllFiles>false</ShowAllFiles>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LocalDebuggerCommandArgumentsHistory>--pluginfolder "C:\Users\grhys\VSTPlugins\Analog Delay\build\VST3\Debug\Analog_Delay.vst3\Contents\x86_64-win\/"|</LocalDebuggerCommandArgumentsHistory>
+    <LocalDebuggerCommandArgumentsHistory>--pluginfolder "C:\Users\grhys\VSTPlugins\Analog Delay\build\VST3\Debug\Analog_Delay.vst3\Contents\x86_64-win\/"|--pluginfolder "C:\Users\RSmith\VSTPlugins\Analog_Delay\build\VST3\Debug\Analog_Delay.vst3\Contents\x86_64-win\/"|</LocalDebuggerCommandArgumentsHistory>
   </PropertyGroup>
 </Project>
