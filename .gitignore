@@ -16,4 +16,6 @@ build/WIN_PDB64/
 build/vst3sdk/
 build/.vs/
 build/CMakeCache.txt
+build/Analog_Delay.dir/
+build/ALL_BUILD.dir/
 
