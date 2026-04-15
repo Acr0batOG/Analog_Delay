@@ -1,4 +1,5 @@
-﻿     Creating library C:/Users/grhys/VSTPlugins/Analog Delay/build/lib/Debug/Analog_Delay.lib and object C:/Users/grhys/VSTPlugins/Analog Delay/build/lib/Debug/Analog_Delay.exp
+﻿  controller.cpp
+  entry.cpp
   Analog_Delay.vcxproj -> C:\Users\grhys\VSTPlugins\Analog Delay\build\VST3\Debug\Analog_Delay.vst3\Contents\x86_64-win\Analog_Delay.vst3
   [SMTG] Copy PlugIn.ico and desktop.ini and change their attributes.			
   [SMTG] Validator started...
