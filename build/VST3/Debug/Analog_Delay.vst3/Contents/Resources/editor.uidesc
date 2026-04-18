@@ -1,18 +1,12 @@
-{
+ {
 	"vstgui-ui-description": {
 		"version": "1",
 		"bitmaps": {
-			"0.0": {
-				"path": "C:\\Users\\grhys\\VSTPlugins\\Analog Delay\\resource\\0.0.png"
-			},
 			"Analog Delay": {
 				"path": "C:\\Users\\grhys\\VSTPlugins\\Analog Delay\\resource\\Analog Delay.png"
 			},
 			"Feedback": {
 				"path": "C:\\Users\\grhys\\VSTPlugins\\Analog Delay\\resource\\Feedback.png"
-			},
-			"Frame 3": {
-				"path": "C:\\Users\\grhys\\VSTPlugins\\Analog Delay\\resource\\Frame 3.png"
 			},
 			"Mix": {
 				"path": "C:\\Users\\grhys\\VSTPlugins\\Analog Delay\\resource\\Mix.png"
@@ -41,23 +35,20 @@
 			"button 1": {
 				"path": "C:\\Users\\grhys\\VSTPlugins\\Analog Delay\\resource\\button.png"
 			},
-			"even_space_knobs": {
-				"mulitframe-frames-per-row": "1",
-				"multiframe-num-frames": "28",
-				"multiframe-size": "100, 90",
-				"path": "C:\\Users\\grhys\\VSTPlugins\\Analog Delay\\resource\\even_space_knobs.png"
+			"on_off": {
+				"path": "C:\\Users\\grhys\\VSTPlugins\\Analog Delay\\resource\\on_off.png"
 			},
-			"knobs_80": {
+			"vst_knob": {
 				"mulitframe-frames-per-row": "1",
-				"multiframe-num-frames": "28",
-				"multiframe-size": "97, 91",
-				"path": "C:\\Users\\grhys\\VSTPlugins\\Analog Delay\\resource\\knobs_80.png"
+				"multiframe-num-frames": "128",
+				"multiframe-size": "80, 80",
+				"path": "C:\\Users\\grhys\\VSTPlugins\\Analog Delay\\resource\\vst_knob.png"
 			},
-			"knobs_small": {
+			"vst_knob_small": {
 				"mulitframe-frames-per-row": "1",
-				"multiframe-num-frames": "28",
-				"multiframe-size": "70, 70",
-				"path": "C:\\Users\\grhys\\VSTPlugins\\Analog Delay\\resource\\knobs_small.png"
+				"multiframe-num-frames": "128",
+				"multiframe-size": "60, 60",
+				"path": "C:\\Users\\grhys\\VSTPlugins\\Analog Delay\\resource\\vst_knob_small.png"
 			}
 		},
 		"fonts": {},
@@ -92,18 +83,18 @@
 			},
 			"UIGridController": {
 				"Grids": "1x 1,5x 5,10x 10,12x 12,15x 15",
-				"Size": "5, 5"
+				"Size": "1, 1"
 			},
 			"UIEditController": {
 				"EditViewScale": "1",
 				"EditorSize": "0, 0, 2560, 1336",
-				"SplitViewSize_0_0": "0.6511450381679388943467756689642556011677",
-				"SplitViewSize_0_1": "0.3335877862595419962588039197726175189018",
+				"SplitViewSize_0_0": "0.7625954198473282596992817161662969738245",
+				"SplitViewSize_0_1": "0.2221374045801526586618734881994896568358",
 				"SplitViewSize_1_0": "0.4900763358778625899958569789305329322815",
 				"SplitViewSize_1_1": "0.5061068702290076881666891495115123689175",
 				"SplitViewSize_2_0": "0.9296875",
 				"SplitViewSize_2_1": "0.068359375",
-				"TabSwitchValue": "0",
+				"TabSwitchValue": "4",
 				"Version": "1"
 			},
 			"UITemplateController": {
@@ -114,7 +105,7 @@
 				"SelectedRow": "16"
 			},
 			"UIBitmapsDataSource": {
-				"SelectedRow": "3"
+				"SelectedRow": "17"
 			}
 		},
 		"templates": {
@@ -143,9 +134,7 @@
 							"wants-focus": "false"
 						}
 					},
-
-
-					"mainText": {
+					"analogText": {
 						"attributes": {
 							"bitmap": "Analog Delay",
 							"class": "CView",
@@ -173,125 +162,105 @@
 						"attributes": {
 							"angle-range": "270",
 							"angle-start": "135",
-							"bitmap": "even_space_knobs",
+							"bitmap": "vst_knob",
 							"class": "CAnimKnob",
-							"default-value": "0.5",
-							"height-of-one-image": "90",
+							"control-tag": "2",
+							"height-of-one-image": "80",
 							"inverse-bitmap": "false",
 							"knob-range": "200",
-							"max-value": "1",
-							"min-value": "0",
-							"mouse-enabled": "true",
 							"opacity": "1",
-							"origin": "420, 70",
-							"size": "100, 90",
-							"sub-pixmaps": "28",
+							"origin": "430, 78",
+							"size": "80, 80",
+							"sub-pixmaps": "128",
 							"transparent": "false",
 							"value-inset": "0",
 							"wants-focus": "false",
 							"wheel-inc-value": "0.1",
-							"zoom-factor": "1.5",
-							"control-tag": "2"
+							"zoom-factor": "1.5"
 						}
 					},
 					"widthKnob": {
 						"attributes": {
 							"angle-range": "270",
 							"angle-start": "135",
-							"bitmap": "knobs_small",
+							"bitmap": "vst_knob_small",
 							"class": "CAnimKnob",
-							"default-value": "0.5",
-							"height-of-one-image": "70",
+							"control-tag": "5",
+							"height-of-one-image": "60",
 							"inverse-bitmap": "false",
 							"knob-range": "200",
-							"max-value": "1",
-							"min-value": "0",
-							"mouse-enabled": "true",
 							"opacity": "1",
-							"origin": "350, 195",
-							"size": "70, 70",
-							"sub-pixmaps": "28",
+							"origin": "354, 202",
+							"size": "60, 60",
+							"sub-pixmaps": "128",
 							"transparent": "false",
 							"value-inset": "0",
 							"wants-focus": "false",
 							"wheel-inc-value": "0.1",
-							"zoom-factor": "1.5",
-							"control-tag": "5"
+							"zoom-factor": "1.5"
 						}
 					},
 					"mixKnob": {
 						"attributes": {
 							"angle-range": "270",
 							"angle-start": "135",
-							"bitmap": "even_space_knobs",
+							"bitmap": "vst_knob",
 							"class": "CAnimKnob",
-							"default-value": "0.5",
-							"height-of-one-image": "90",
+							"control-tag": "3",
+							"height-of-one-image": "80",
 							"inverse-bitmap": "false",
 							"knob-range": "200",
-							"max-value": "1",
-							"min-value": "0",
-							"mouse-enabled": "true",
 							"opacity": "1",
-							"origin": "250, 71",
-							"size": "100, 90",
-							"sub-pixmaps": "28",
+							"origin": "263, 77",
+							"size": "80, 80",
+							"sub-pixmaps": "128",
 							"transparent": "false",
 							"value-inset": "0",
 							"wants-focus": "false",
 							"wheel-inc-value": "0.1",
-							"zoom-factor": "1.5",
-							"control-tag": "3"
+							"zoom-factor": "1.5"
 						}
 					},
 					"toneKnob": {
 						"attributes": {
 							"angle-range": "270",
 							"angle-start": "135",
-							"bitmap": "knobs_small",
+							"bitmap": "vst_knob_small",
 							"class": "CAnimKnob",
-							"default-value": "0.5",
-							"height-of-one-image": "70",
+							"control-tag": "4",
+							"height-of-one-image": "60",
 							"inverse-bitmap": "false",
 							"knob-range": "200",
-							"max-value": "1",
-							"min-value": "0",
-							"mouse-enabled": "true",
 							"opacity": "1",
-							"origin": "180, 191",
-							"size": "70, 70",
-							"sub-pixmaps": "28",
+							"origin": "186, 202",
+							"size": "60, 60",
+							"sub-pixmaps": "128",
 							"transparent": "false",
 							"value-inset": "0",
 							"wants-focus": "false",
 							"wheel-inc-value": "0.1",
-							"zoom-factor": "1.5",
-							"control-tag": "4"
+							"zoom-factor": "1.5"
 						}
 					},
 					"timeKnob": {
 						"attributes": {
 							"angle-range": "270",
 							"angle-start": "135",
-							"bitmap": "even_space_knobs",
+							"bitmap": "vst_knob",
 							"class": "CAnimKnob",
-							"default-value": "0.5",
-							"height-of-one-image": "90",
+							"control-tag": "1",
+							"height-of-one-image": "80",
 							"inverse-bitmap": "false",
 							"knob-range": "200",
-							"max-value": "1",
-							"min-value": "0",
-							"mouse-enabled": "true",
 							"opacity": "1",
-							"origin": "84, 70",
-							"size": "100, 90",
-							"sub-pixmaps": "28",
+							"origin": "97, 78",
+							"size": "80, 80",
+							"sub-pixmaps": "128",
 							"transparent": "false",
 							"value-inset": "0",
 							"wants-focus": "false",
 							"wheel-inc-value": "0.1",
-							"zoom-factor": "1.5",
-							"control-tag": "1"
+							"zoom-factor": "1.5"
 						}
 					},
 					"timeText": {
@@ -312,7 +281,7 @@
 							"class": "CView",
 							"mouse-enabled": "true",
 							"opacity": "1",
-							"origin": "438, 190",
+							"origin": "440, 189",
 							"size": "66, 12",
 							"transparent": "false",
 							"wants-focus": "false"
@@ -354,9 +323,10 @@
 							"wants-focus": "false"
 						}
 					},
-					"COnOffButton": {
+					"onOffButton": {
 						"attributes": {
-							"bitmap": "Frame 3",
+							"bitmap": "on_off",
+							"control-tag": "0",
 							"class": "COnOffButton",
 							"default-value": "0.5",
 							"max-value": "1",
@@ -382,7 +352,7 @@
 							"frame-color": "~ TransparentCColor",
 							"frame-width": "1",
 							"opacity": "1",
-							"origin": "100, 165",
+							"origin": "99, 165",
 							"round-rect-radius": "6",
 							"shadow-color": "~ TransparentCColor",
 							"size": "70, 20",
@@ -415,7 +385,7 @@
 							"frame-color": "~ TransparentCColor",
 							"frame-width": "1",
 							"opacity": "1",
-							"origin": "265, 165",
+							"origin": "269, 164",
 							"round-rect-radius": "6",
 							"shadow-color": "~ TransparentCColor",
 							"size": "70, 20",
@@ -448,7 +418,7 @@
 							"frame-color": "~ TransparentCColor",
 							"frame-width": "1",
 							"opacity": "1",
-							"origin": "440, 165",
+							"origin": "439, 165",
 							"round-rect-radius": "6",
 							"shadow-color": "~ TransparentCColor",
 							"size": "70, 20",
@@ -481,7 +451,7 @@
 							"frame-color": "~ TransparentCColor",
 							"frame-width": "1",
 							"opacity": "1",
-							"origin": "180, 270",
+							"origin": "184, 270",
 							"round-rect-radius": "6",
 							"shadow-color": "~ TransparentCColor",
 							"size": "70, 20",
@@ -514,7 +484,7 @@
 							"frame-color": "~ TransparentCColor",
 							"frame-width": "1",
 							"opacity": "1",
-							"origin": "350, 270",
+							"origin": "348, 270",
 							"round-rect-radius": "6",
 							"shadow-color": "~ TransparentCColor",
 							"size": "70, 20",
