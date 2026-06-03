@@ -33,8 +33,7 @@ public:
 
 	// FUnknown query chain
 	DELEGATE_REFCOUNT(Steinberg::Vst::AudioEffect) 
-		
-	Steinberg::tresult PLUGIN_API queryInterface(const Steinberg::TUID iid, void** obj) SMTG_OVERRIDE;
+		Steinberg::tresult PLUGIN_API queryInterface(const Steinberg::TUID iid, void** obj) SMTG_OVERRIDE;
 
 
 	//--- ---------------------------------------------------------------------
