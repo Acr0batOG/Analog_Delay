@@ -5,7 +5,7 @@
 		<BuildType Name="Release"/>
 		<Platform Name="x64"/>
 	</Configurations>
-	<Project Path="Analog_Delay.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="358d57c7-236c-327f-b89d-135f62b068fc" DefaultStartup="true">
+	<Project Path="Analog_Delay.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="8b0ab6f2-d5e3-3922-9430-3c1547621c67" DefaultStartup="true">
 		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 		<BuildDependency Project="vst3sdk/base.vcxproj"/>
 		<BuildDependency Project="vst3sdk/public.sdk/samples/vst-utilities/moduleinfotool/moduleinfotool.vcxproj"/>
@@ -17,11 +17,11 @@
 		<BuildDependency Project="vst3sdk/vstgui_support.vcxproj"/>
 		<BuildDependency Project="vst3sdk/VSTGUI.build/vstgui/uidescription/vstgui_uidescription.vcxproj"/>
 	</Project>
-	<Project Path="vst3sdk/VSTGUI.build/vstgui/uidescription-scripting/vstgui_uiscripting.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="b866d8b2-c2ef-39db-abf3-c013e46063d7">
+	<Project Path="vst3sdk/VSTGUI.build/vstgui/uidescription-scripting/vstgui_uiscripting.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="07d15452-5082-3f11-a8f0-63636ad2a95c">
 		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 	</Project>
 	<Folder Name="/Hosting-Examples/">
-		<Project Path="vst3sdk/public.sdk/samples/vst-hosting/validator/validator.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="b8a457e3-e1bf-3a6d-a1bb-39f91370d457">
+		<Project Path="vst3sdk/public.sdk/samples/vst-hosting/validator/validator.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="18d39353-996c-32bf-98e6-0e6a73bee4a1">
 			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 			<BuildDependency Project="vst3sdk/base.vcxproj"/>
 			<BuildDependency Project="vst3sdk/pluginterfaces.vcxproj"/>
@@ -30,58 +30,58 @@
 		</Project>
 	</Folder>
 	<Folder Name="/Libraries/">
-		<Project Path="vst3sdk/base.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="ec420b58-3778-3fcb-a98f-7be7f74864cd">
+		<Project Path="vst3sdk/base.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="1e5d40aa-6cb7-33e0-9fb5-1331e6e7ea6f">
 			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 		</Project>
-		<Project Path="vst3sdk/cmake_VST_modules.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="033520f6-df9d-37ab-a5af-d485be9b6afd">
-			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
-			<Build Solution="Debug|*" Project="false"/>
-			<Build Solution="Release|*" Project="false"/>
-		</Project>
-		<Project Path="vst3sdk/cmake_modules.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="96808505-a6e2-3b65-83f8-f39e595b5c85">
+		<Project Path="vst3sdk/cmake_VST_modules.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="bb51c4cd-e51d-3a3f-852c-5cbc239d6135">
 			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 			<Build Solution="Debug|*" Project="false"/>
 			<Build Solution="Release|*" Project="false"/>
 		</Project>
-		<Project Path="vst3sdk/pluginterfaces.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="829a8845-b251-3bd5-b1c8-604476f8df6d">
+		<Project Path="vst3sdk/cmake_modules.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="6cfe4b56-aea7-342f-9218-617e016bb804">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+		</Project>
+		<Project Path="vst3sdk/pluginterfaces.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="71395d8d-79b1-3e72-8422-34a5569853fd">
 			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 		</Project>
-		<Project Path="vst3sdk/sdk.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="3e871b26-8504-3143-9f65-030306dd7794">
+		<Project Path="vst3sdk/sdk.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="28e7dc87-5d92-38bb-88b7-8ea92b5c62a5">
 			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 			<BuildDependency Project="vst3sdk/base.vcxproj"/>
 			<BuildDependency Project="vst3sdk/pluginterfaces.vcxproj"/>
 			<BuildDependency Project="vst3sdk/sdk_common.vcxproj"/>
 		</Project>
-		<Project Path="vst3sdk/sdk_common.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="46a29b5d-03c2-3b87-8822-5bb1a050a388">
+		<Project Path="vst3sdk/sdk_common.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="2ce732bc-86c1-3ad5-84e9-043397209a4e">
 			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 			<BuildDependency Project="vst3sdk/base.vcxproj"/>
 			<BuildDependency Project="vst3sdk/pluginterfaces.vcxproj"/>
 		</Project>
-		<Project Path="vst3sdk/sdk_hosting.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="18f382a2-658d-3b45-a4b8-d0cde338cb31">
+		<Project Path="vst3sdk/sdk_hosting.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="c9a5d582-b82f-3ab8-bc43-9b6714f0a2bb">
 			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 			<BuildDependency Project="vst3sdk/base.vcxproj"/>
 			<BuildDependency Project="vst3sdk/pluginterfaces.vcxproj"/>
 			<BuildDependency Project="vst3sdk/sdk_common.vcxproj"/>
 		</Project>
-		<Project Path="vst3sdk/VSTGUI.build/vstgui/lib/vstgui.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="7b767bf7-156e-37b0-a431-97fd8e5192d1">
+		<Project Path="vst3sdk/VSTGUI.build/vstgui/lib/vstgui.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="4f7099cb-6b6d-3186-9c53-734b0c247e3a">
 			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 		</Project>
-		<Project Path="vst3sdk/VSTGUI.build/vstgui/standalone/vstgui_standalone.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="2424e7aa-7796-31cc-9dc0-55b88e79f606">
+		<Project Path="vst3sdk/VSTGUI.build/vstgui/standalone/vstgui_standalone.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="2f684399-4f4d-3e7c-80cb-d863fce4fac5">
 			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 		</Project>
-		<Project Path="vst3sdk/vstgui_support.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="b7f188a4-251d-3515-af0e-24089f239a57">
+		<Project Path="vst3sdk/vstgui_support.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="6d471e25-7d0a-378a-a0e4-2e0f58f59947">
 			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 			<BuildDependency Project="vst3sdk/base.vcxproj"/>
 			<BuildDependency Project="vst3sdk/VSTGUI.build/vstgui/lib/vstgui.vcxproj"/>
 			<BuildDependency Project="vst3sdk/VSTGUI.build/vstgui/uidescription/vstgui_uidescription.vcxproj"/>
 		</Project>
-		<Project Path="vst3sdk/VSTGUI.build/vstgui/uidescription/vstgui_uidescription.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="499e9773-9c28-3e8a-bdad-0b5b0a51cd4f">
+		<Project Path="vst3sdk/VSTGUI.build/vstgui/uidescription/vstgui_uidescription.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="7b7257cc-70c9-3023-8a20-d3d894165049">
 			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 			<BuildDependency Project="vst3sdk/VSTGUI.build/vstgui/lib/vstgui.vcxproj"/>
 		</Project>
 	</Folder>
 	<Folder Name="/Predefined/">
-		<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="3b9cc522-4839-3fb7-8983-3e7de925fd67">
+		<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="bc2f6683-1bfd-3982-b0c1-e2685ef074ab">
 			<BuildDependency Project="Analog_Delay.vcxproj"/>
 			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 			<BuildDependency Project="vst3sdk/base.vcxproj"/>
@@ -99,10 +99,10 @@
 			<Build Solution="Debug|*" Project="false"/>
 			<Build Solution="Release|*" Project="false"/>
 		</Project>
-		<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="5d789c1c-6fe2-33b1-94cf-aa8af4b2708c"/>
+		<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="606a1833-ed9f-3058-ba9f-f2f3170ba1da"/>
 	</Folder>
 	<Folder Name="/Utilities/">
-		<Project Path="vst3sdk/public.sdk/samples/vst-utilities/moduleinfotool/moduleinfotool.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="29933b3c-e4aa-3bd5-8390-3276c5070e04">
+		<Project Path="vst3sdk/public.sdk/samples/vst-utilities/moduleinfotool/moduleinfotool.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="9958e25c-0319-3c8e-a4c5-bdae4a5c75a3">
 			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 			<BuildDependency Project="vst3sdk/base.vcxproj"/>
 			<BuildDependency Project="vst3sdk/pluginterfaces.vcxproj"/>

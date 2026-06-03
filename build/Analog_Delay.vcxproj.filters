@@ -1,65 +1,65 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\grhys\VSTPlugins\Analog Delay\source\processor.cpp">
+    <ClCompile Include="C:\Users\RSmith\VSTPlugins\Analog_Delay\source\processor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grhys\VSTPlugins\Analog Delay\source\controller.cpp">
+    <ClCompile Include="C:\Users\RSmith\VSTPlugins\Analog_Delay\source\controller.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grhys\VSTPlugins\Analog Delay\source\entry.cpp">
+    <ClCompile Include="C:\Users\RSmith\VSTPlugins\Analog_Delay\source\entry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\grhys\VST_SDK\vst3sdk\public.sdk\source\main\dllmain.cpp">
+    <ClCompile Include="C:\Users\RSmith\VST3\VST_SDK\vst3sdk\public.sdk\source\main\dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\grhys\VSTPlugins\Analog Delay\source\version.h">
+    <ClInclude Include="C:\Users\RSmith\VSTPlugins\Analog_Delay\source\version.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grhys\VSTPlugins\Analog Delay\source\cids.h">
+    <ClInclude Include="C:\Users\RSmith\VSTPlugins\Analog_Delay\source\cids.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grhys\VSTPlugins\Analog Delay\source\processor.h">
+    <ClInclude Include="C:\Users\RSmith\VSTPlugins\Analog_Delay\source\processor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\grhys\VSTPlugins\Analog Delay\source\controller.h">
+    <ClInclude Include="C:\Users\RSmith\VSTPlugins\Analog_Delay\source\controller.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\grhys\VSTPlugins\Analog Delay\resource\editor.uidesc">
+    <CustomBuild Include="C:\Users\RSmith\VSTPlugins\Analog_Delay\resource\editor.uidesc">
       <Filter>Contents\Resources</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\grhys\VSTPlugins\Analog Delay\resource\9C9936F812225A0795357A84540A2494_snapshot.png">
+    <CustomBuild Include="C:\Users\RSmith\VSTPlugins\Analog_Delay\resource\9C9936F812225A0795357A84540A2494_snapshot.png">
       <Filter>Contents\Resources\Snapshots</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\grhys\VSTPlugins\Analog Delay\resource\9C9936F812225A0795357A84540A2494_snapshot_2.0x.png">
+    <CustomBuild Include="C:\Users\RSmith\VSTPlugins\Analog_Delay\resource\9C9936F812225A0795357A84540A2494_snapshot_2.0x.png">
       <Filter>Contents\Resources\Snapshots</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\grhys\VSTPlugins\Analog Delay\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\RSmith\VSTPlugins\Analog_Delay\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="C:\Users\grhys\VSTPlugins\Analog Delay\resource\win32resource.rc">
+    <ResourceCompile Include="C:\Users\RSmith\VSTPlugins\Analog_Delay\resource\win32resource.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Contents">
-      <UniqueIdentifier>{F4CC38EE-AF82-3F8D-8D23-7174C7158012}</UniqueIdentifier>
+      <UniqueIdentifier>{1C88135B-0E71-3D29-A6E7-D13C55337363}</UniqueIdentifier>
     </Filter>
     <Filter Include="Contents\Resources">
-      <UniqueIdentifier>{16EB3021-DE6A-3D98-B224-579673589D75}</UniqueIdentifier>
+      <UniqueIdentifier>{56D65EA5-8D84-3D4B-B263-5ECB1B005717}</UniqueIdentifier>
     </Filter>
     <Filter Include="Contents\Resources\Snapshots">
-      <UniqueIdentifier>{509E3AF8-B9E7-3DB3-B3E8-E0522833AC97}</UniqueIdentifier>
+      <UniqueIdentifier>{CD169A68-6E00-3588-A2E8-03373F5F949C}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{D3BF3E6B-3D23-3978-BBEA-246D574F8150}</UniqueIdentifier>
+      <UniqueIdentifier>{B752EB54-6F9A-31BE-BDCC-0677A4E1C899}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{AE5F887A-AE59-3F46-888D-08167879BE63}</UniqueIdentifier>
+      <UniqueIdentifier>{C023DBCD-AB3B-3B76-8D57-E9E9DC3FECE2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

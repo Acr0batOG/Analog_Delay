@@ -5,13 +5,15 @@
 #pragma once
 
 #include "public.sdk/source/vst/vstaudioeffect.h"
+#include "pluginterfaces/vst/ivstprocesscontext.h"
 
 namespace MyCompanyName {
 
 //------------------------------------------------------------------------
 //  Analog_DelayProcessor
 //------------------------------------------------------------------------
-class Analog_DelayProcessor : public Steinberg::Vst::AudioEffect
+class Analog_DelayProcessor : public Steinberg::Vst::AudioEffect,
+	public Steinberg::Vst::IProcessContextRequirements
 {
 public:
 	Analog_DelayProcessor ();
@@ -22,6 +24,18 @@ public:
 	{ 
 		return (Steinberg::Vst::IAudioProcessor*)new Analog_DelayProcessor; 
 	}
+
+	// IProcessContextRequirements
+	Steinberg::uint32 PLUGIN_API getProcessContextRequirements() SMTG_OVERRIDE
+	{
+		return IProcessContextRequirements::kNeedTempo;
+	}
+
+	// FUnknown query chain
+	DELEGATE_REFCOUNT(Steinberg::Vst::AudioEffect) 
+		
+	Steinberg::tresult PLUGIN_API queryInterface(const Steinberg::TUID iid, void** obj) SMTG_OVERRIDE;
+
 
 	//--- ---------------------------------------------------------------------
 	// AudioEffect overrides:
@@ -56,6 +70,8 @@ protected:
 	
 	// Will be changed with On/Off button
 	bool bypass = false;
+
+	double currentBPM = 120.0; // fallback tempo
 
 	// This will be a knob, called "Time" Valued 0 - 1000 ms
 	float delayTimeMs = 400.0f;   // base delay

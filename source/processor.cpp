@@ -21,6 +21,8 @@ using namespace Steinberg;
 namespace
 {
 
+	
+
 	struct Biquad
 	{
 		float b0 = 1, b1 = 0, b2 = 0;
@@ -89,6 +91,11 @@ namespace MyCompanyName {
 	{
 	}
 
+	tresult PLUGIN_API Analog_DelayProcessor::queryInterface(const TUID iid, void** obj)
+	{
+		QUERY_INTERFACE(iid, obj, IProcessContextRequirements::iid, IProcessContextRequirements)
+			return AudioEffect::queryInterface(iid, obj);
+	}
 
 	tresult PLUGIN_API Analog_DelayProcessor::process(Vst::ProcessData& data)
 	{
@@ -122,7 +129,12 @@ namespace MyCompanyName {
 		float* outL = numOutChannels > 0 ? out.channelBuffers32[0] : nullptr;
 		float* outR = numOutChannels > 1 ? out.channelBuffers32[1] : nullptr;
 
-
+		// --- Read tempo from DAW ---
+		if (data.processContext &&
+			(data.processContext->state & Vst::ProcessContext::kTempoValid))
+		{
+			currentBPM = data.processContext->tempo;
+		}
 		// --- Parameter updates ---
 		if (data.inputParameterChanges)
 		{
@@ -181,10 +193,18 @@ namespace MyCompanyName {
 			}
 			return kResultOk;
 		}
-
+		//Will change in future, and change to a button
+		float noteDivision = 1.0f;
+		float tempoDelayMs = (60000.0 / currentBPM) * noteDivision;
+		// noteDivision: 1.0 = quarter, 0.5 = eighth, 2.0 = half, etc.
 		// --- Delay math ---
 		// Calculate samples required for delay time, limit to buffer size
 		// I.E. 400 * 0.001 * 44100 = 17640 samples, limit to buffer size
+		// 
+		// Leave this for now, will be a button and have values 0,1,2,3 for off, quarter, eighth, dotted eigth divisions.
+		//if (tempoSelection != 0) {
+		//	delayTimeMs = tempoDelayMs;
+		//}
 		const int delaySamples = std::clamp((int)((delayTimeMs * 0.001f) * sampleRate), 1, bufferSize - 1);
 		// alpha = e^(-2pi * fc / fs) or -6.283185307 * 2080 / 44100 = -0.296
 		const float alpha = expf(-2.0f * 3.14159265f * toneCutoff / sampleRate);
