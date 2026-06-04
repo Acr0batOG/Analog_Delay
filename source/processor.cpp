@@ -176,6 +176,9 @@ namespace MyCompanyName {
 				case kStereoWidthId:
 					stereoWidth = value;
 					break;
+				case kTempoSyncId:
+					delayTempoSync = static_cast<int>(value * 3.99f); // 4 options: off, quarter, dotted quarter, half
+					break;
 				}
 			}
 		}
@@ -193,18 +196,28 @@ namespace MyCompanyName {
 			}
 			return kResultOk;
 		}
-		//Will change in future, and change to a button
-		float noteDivision = 1.0f;
-		float tempoDelayMs = (60000.0 / currentBPM) * noteDivision;
-		// noteDivision: 1.0 = quarter, 0.5 = eighth, 2.0 = half, etc.
+		// Will change in future, and change to a button
+		float noteDivision = 0.0f; // Off for default
+
+		switch (static_cast<int>(delayTempoSync)) {
+		case 0: noteDivision = 0.0f;  break; // Off
+		case 1: noteDivision = 1.0f;  break; // Quarter note (1/4)
+		case 2: noteDivision = 0.5f;  break; // Eighth note (1/8)
+		case 3: noteDivision = 0.75f; break; // Dotted Eighth note (1/8d)
+		default: noteDivision = 0.0f; break;
+		}
+
+		// Guard against division by zero or invalid host BPM
+		float tempoDelayMs = 0.0f;
+		if (currentBPM > 0.0f) {
+			tempoDelayMs = (60000.0f / currentBPM) * noteDivision;
+		}
 		// --- Delay math ---
 		// Calculate samples required for delay time, limit to buffer size
 		// I.E. 400 * 0.001 * 44100 = 17640 samples, limit to buffer size
 		// 
 		// Leave this for now, will be a button and have values 0,1,2,3 for off, quarter, eighth, dotted eigth divisions.
-		//if (tempoSelection != 0) {
-		//	delayTimeMs = tempoDelayMs;
-		//}
+		delayTimeMs = (noteDivision > 0.0f) ? tempoDelayMs : delayTimeMs; //If Tempo Sync is on, override delay with tempo sync otherwise ignore.
 		const int delaySamples = std::clamp((int)((delayTimeMs * 0.001f) * sampleRate), 1, bufferSize - 1);
 		// alpha = e^(-2pi * fc / fs) or -6.283185307 * 2080 / 44100 = -0.296
 		const float alpha = expf(-2.0f * 3.14159265f * toneCutoff / sampleRate);

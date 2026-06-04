@@ -72,6 +72,8 @@ protected:
 
 	double currentBPM = 120.0; // fallback tempo
 
+	//Value for delay time
+	float delayTempoSync = 0; // 0 = off, .25 = quarter note, .5 = dotted quarter, .75 = half note
 	// This will be a knob, called "Time" Valued 0 - 1000 ms
 	float delayTimeMs = 400.0f;   // base delay
 	// This will be a knob called "Feedback" Valued 0 - 100%

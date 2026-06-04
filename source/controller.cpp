@@ -91,6 +91,14 @@ namespace MyCompanyName {
 			Steinberg::Vst::ParameterInfo::kCanAutomate,
 			kStereoWidthId
 		);
+		parameters.addParameter(
+			STR16("Tempo Sync"),
+			nullptr,
+			0, //May need to change this
+			0.0,    // default = index 1 ("Normal")
+			Steinberg::Vst::ParameterInfo::kCanAutomate,
+			kTempoSyncId
+		);
 
 		// apply normalized defaults into parameter container
 		setParamNormalized(kBypassId, 0.0);
@@ -99,6 +107,7 @@ namespace MyCompanyName {
 		setParamNormalized(kFeedbackId, 0.24f / 0.95f);
 		setParamNormalized(kToneId, 0.5);
 		setParamNormalized(kStereoWidthId, 0.5); // normalized index 1 of 0,1,2
+		setParamNormalized(kTempoSyncId, 0.0); // default 0 (off), 1 2, 3 also possible
 
 		parameters.getParameter(kBypassId)->setNormalized(0.0);
 		parameters.getParameter(kDelayTimeId)->setNormalized(
@@ -108,6 +117,7 @@ namespace MyCompanyName {
 		parameters.getParameter(kFeedbackId)->setNormalized(0.24f / 0.95f);
 		parameters.getParameter(kToneId)->setNormalized(0.5);
 		parameters.getParameter(kStereoWidthId)->setNormalized(0.5);
+		parameters.getParameter(kTempoSyncId)->setNormalized(0.0);
 
 		return kResultOk;
 	}
@@ -236,6 +246,10 @@ namespace MyCompanyName {
 		{
 			writeParam(kStereoWidthId, static_cast<float>(p->getNormalized()));
 		}
+		if (auto* p = parameters.getParameter(kTempoSyncId))
+		{
+			writeParam(kTempoSyncId, static_cast<float>(p->getNormalized()));
+		}
 
 		return kResultOk;
 	}
@@ -330,6 +344,15 @@ namespace MyCompanyName {
 				idx = 2;
 			else
 				idx = 3;
+			snprintf(buf, sizeof(buf), "%s", labels[idx]);
+			break;
+		}
+		case kTempoSyncId:
+		{
+			// Tempo Sync: 0 = off, 1 = quarter note, 2 = dotted quarter, 3 = half note
+			// Won't be using this very much as it'll be the buttons enabled or disabled that affects it
+			int idx = static_cast<int>(std::round(valueNormalized * 3.0f));
+			const char* labels[4] = { "Off", "1/4", "1/8.", ".1/8" };
 			snprintf(buf, sizeof(buf), "%s", labels[idx]);
 			break;
 		}

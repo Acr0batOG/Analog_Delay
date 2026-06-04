@@ -26,6 +26,8 @@ enum ParamIDs : Steinberg::Vst::ParamID
 
 	kStereoWidthId, // 0-1
 
+	kTempoSyncId,    // 0 = off, 1 = quarter note, 2 = dotted quarter, 3 = half note
+
 	kParamCount
 };
 
